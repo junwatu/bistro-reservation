@@ -5,6 +5,7 @@ import { FilesFetchDto } from 'server/dtos/files-fetch.dto';
 import { FileCategories } from 'server/enums';
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
+  console.log(req)
   if (req.method !== 'GET') {
     res.status(405).send({ message: 'Method not allowed' });
     res.end();
