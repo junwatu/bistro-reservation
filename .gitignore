@@ -37,6 +37,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+.env.prod
 .env
 /.idea/.gitignore
 /prisma/migrations/20230509095235_init/migration.sql
